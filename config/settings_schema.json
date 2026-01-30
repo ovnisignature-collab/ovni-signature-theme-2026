@@ -1,0 +1,71 @@
+[
+  {
+    "name": "OVNI NEXUS 2026 — Theme settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Brand / Nexus"
+      },
+      {
+        "type": "color",
+        "id": "nexus_accent",
+        "label": "Accent cyber (bleu)",
+        "default": "#00D1FF"
+      },
+      {
+        "type": "color",
+        "id": "nexus_bg",
+        "label": "Fond principal (noir bleuté)",
+        "default": "#070B10"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_matrix",
+        "label": "Activer la grille (matrix) globale",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_animations",
+        "label": "Activer les animations (moteur JS)",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Confidentialité (Loi 25 — Canada)"
+      },
+      {
+        "type": "checkbox",
+        "id": "law25_enable_banner",
+        "label": "Activer la bannière de consentement",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "law25_banner_title",
+        "label": "Titre bannière",
+        "default": "Confidentialité"
+      },
+      {
+        "type": "textarea",
+        "id": "law25_banner_text",
+        "label": "Texte bannière",
+        "default": "Nous utilisons des technologies pour améliorer l’expérience. Vous pouvez accepter, refuser ou personnaliser vos choix."
+      },
+      {
+        "type": "text",
+        "id": "law25_accept_label",
+        "label": "Bouton accepter",
+        "default": "Accepter"
+      },
+      {
+        "type": "text",
+        "id": "law25_reject_label",
+        "label": "Bouton refuser",
+        "default": "Refuser"
+      },
+      {
+        "type": "text",
+        "id": "law25_manage_label",
+        "label": "Bouton gérer",
+        "
