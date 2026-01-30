@@ -1,0 +1,42 @@
+<div id="ovni-law25-banner" class="ovni-law25">
+  <div class="ovni-law25__inner ovni-surface">
+    <strong class="ovni-law25__title">
+      {{ settings.law25_banner_title }}
+    </strong>
+
+    <p class="ovni-law25__text">
+      {{ settings.law25_banner_text }}
+    </p>
+
+    <div class="ovni-law25__actions">
+      <button type="button" data-law25="accept">
+        {{ settings.law25_accept_label }}
+      </button>
+
+      <button type="button" data-law25="reject">
+        {{ settings.law25_reject_label }}
+      </button>
+
+      <button type="button" data-law25="manage">
+        {{ settings.law25_manage_label }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const key = 'ovni_law25_consent';
+    if (localStorage.getItem(key)) {
+      document.getElementById('ovni-law25-banner')?.remove();
+      return;
+    }
+
+    document.querySelectorAll('[data-law25]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        localStorage.setItem(key, btn.dataset.law25);
+        document.getElementById('ovni-law25-banner')?.remove();
+      });
+    });
+  })();
+</script>
