@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "hero": {
+      "type": "ovni-nexus-hero"
+    }
+  },
+  "order": [
+    "hero"
+  ]
+}
