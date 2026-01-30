@@ -1,0 +1,29 @@
+/* =========================
+   OVNI NEXUS 2026 — Tokens
+   ========================= */
+
+:root {
+  --nexus-bg: #070b10;
+  --nexus-surface: rgba(10, 15, 20, 0.65);
+  --nexus-border: rgba(255, 255, 255, 0.06);
+  --nexus-accent: #00d1ff;
+
+  --radius-lg: 18px;
+  --radius-md: 14px;
+
+  --blur-lg: 18px;
+  --blur-md: 12px;
+
+  --text-primary: #e9eef2;
+  --text-secondary: #9aa7b2;
+
+  --dot-color: rgba(0, 209, 255, 0.08);
+}
+
+/* =========================
+   Base
+   ========================= */
+
+html, body {
+  margin: 0;
+  padding:
