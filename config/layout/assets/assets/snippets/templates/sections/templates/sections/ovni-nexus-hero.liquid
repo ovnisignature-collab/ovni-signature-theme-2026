@@ -1,0 +1,10 @@
+<section class="ovni-nexus-hero">
+  <div class="ovni-nexus-hero__inner ovni-surface">
+    {% if section.settings.logo != blank %}
+      <div class="ovni-nexus-hero__logo">
+        <img
+          src="{{ section.settings.logo | image_url: width: 320 }}"
+          alt="{{ shop.name }}"
+          loading="eager"
+        >
+      </div>
