@@ -27,3 +27,23 @@
 html, body {
   margin: 0;
   padding:
+/* ================================
+   NEXUS HERO
+================================ */
+
+.ovni-nexus-hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+}
+
+.ovni-nexus-hero__inner {
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+}
+
+.ovni-nexus-hero__logo img {
+  max
