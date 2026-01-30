@@ -1,7 +1,11 @@
 {
   "sections": {
     "hero": {
-      "type": "ovni-nexus-hero"
+      "type": "ovni-nexus-hero",
+      "settings": {
+        "title": "OVNI Signature",
+        "subtitle": "The future of identity, refined by AI."
+      }
     }
   },
   "order": [
